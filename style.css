@@ -69,6 +69,23 @@ h2 {
   text-shadow: 0 0 5px 10px;
 }
 
+.hotstar {
+  background: linear-gradient(135deg, #00a0ff, #e608a9);
+}
+
+.sunset {
+  background: radial-gradient(
+    hsl(55 100% 68% / 90%) 10%,
+    hsl(29 100% 60% / 1) 40%,
+    hsl(29 100% 45% / 1) 70%,
+    hsl(29 90% 35% / 1) 100%
+  );
+}
+
+.sunset h2 {
+  color: #444;
+}
+
 .brown-creame {
   background: linear-gradient(
     180deg,
