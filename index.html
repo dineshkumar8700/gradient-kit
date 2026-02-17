@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gradient Kit</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(240, 240, 240);
+      font-family: sans-serif;
+      }
+
+    .sidebar {
+      background-color: hsl(30, 90%, 25%);
+      width: 200px;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 80px 20px;
+      z-index: 10;
+    }
+
+    main {
+      margin-left: 239px;
+    }
+
+    p {
+      line-height: 1.4em;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #F1EEEE;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #eeeeee;
+      font-size: 20px;
+    }
+
+    .gradient-container {
+      display: flex;
+      gap: 50px;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      height: 100vh;
+    }
+
+    .gradient {
+      width: 100%;
+      height: 100%;
+      border: 1px solid rgb(188, 185, 185);
+    }
+
+    .gold-black {
+      background: linear-gradient(180deg, hsl(51 90% 42% / 1) 50%, hsl(0deg 0% 0%) 50%);
+    }
+
+    .brown-creame {
+      background: linear-gradient(180deg, hsl(30 91% 35% / 1) 50%, hsl(0 10% 94% / 1) 50%)
+    }
+
+    .blue-white {
+      background: linear-gradient(180deg, hsl(189, 100%, 50%) 50%, hsl(0 10% 94% / 1) 50%)
+    }
+
+    .green-navy {
+      background: linear-gradient(180deg, #029894, #D1F1F4)
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+    <nav>
+      <a href="gradient-1">Gradient 1</a>
+      <a href="gradient-2">Gradient 2</a>
+      <a href="gradient-3">Gradient 3</a>
+      <a href="gradient-4">Gradient 4</a>
+      <a href="gradient-5">Gradient 5</a>
+      <a href="gradient-6">Gradient 6</a>
+    </nav>
+  </div>
+  <main>
+    <div class="gradient-container">
+      <div class="gradient gold-black"></div>
+      <!-- <div class="gradient brown-creame"></div>
+      <div class="gradient blue-white"></div>
+      <div class="gradient green-navy"></div> -->
+    </div>
+  </main>
+</body>
+
+</html>
